@@ -13,9 +13,6 @@ This backend application empowers users to:
 - **Track Debts** with automatic balance calculations
 - **Settle Accounts** with partial or full payment support
 
-### Core Philosophy
-
-> _Keep it simple, keep it fair._ The system uses intelligent balance optimization to minimize the number of transactions needed to settle group expenses.
 
 ---
 
@@ -720,21 +717,6 @@ curl -X POST http://localhost:5000/groups \
 
 ---
 
-## 📄 License
 
-ISC
 
-## 👨‍💻 Developer Notes
 
-This implementation prioritizes:
-
-- **Correctness** over micro-optimizations
-- **Readability** for team collaboration
-- **Maintainability** for future changes
-- **Type Safety** for reliability
-
-The codebase is structured to be easily extended with new features while maintaining the core integrity of the expense-sharing algorithm.
-
----
-
-**Happy Expense Sharing! 💰✨**
